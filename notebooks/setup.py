@@ -15,6 +15,7 @@ import copy
 import json
 from shapely.geometry import Polygon, MultiPolygon
 import osmnx as ox
+from networkx import betweenness_centrality
 
 ### plotting
 import matplotlib.pyplot as plt
@@ -27,6 +28,7 @@ from folium.plugins import HeatMap, DualMap, Fullscreen
 from folium.features import DivIcon
 from branca.element import Template, MacroElement
 import locale
+from mpl_toolkits.axes_grid1 import make_axes_locatable
 
 ### jupyter
 from IPython.display import HTML

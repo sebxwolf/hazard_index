@@ -3,7 +3,7 @@ FROM jupyter/datascience-notebook
 RUN python --version
 
 RUN conda install --quiet --yes -c \
-    conda-forge osmnx dask
+    conda-forge osmnx dask jupyter_contrib_nbextensions jupyter_nbextensions_configurator
 
 RUN pip install -U geopandas \
                    geopy \
