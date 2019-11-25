@@ -23,6 +23,6 @@ Given a hazard index indicating the probability of wildfires, come up with metri
 - analyse the result
 
 # Organization of repository:
-Find the main file for analysis under [here](notebooks/Economic_cost_of_wildfires.ipynb).
+Find the main file for analysis [here](notebooks/Economic_cost_of_wildfires.ipynb).
 Run it in a docker container composed with `docker-compose up` after cloning the repository.
 You will have to create a data folder in the repository that holds the full map in a json.
